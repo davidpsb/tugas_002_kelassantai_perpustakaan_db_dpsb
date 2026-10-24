@@ -1,0 +1,25 @@
+# 1. Virtual Environment (Sangat Besar & Spesifik OS)
+venv/
+.venv/
+env/
+
+# 2. File Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 3. File Database Lokal (SQLite)
+instance/
+*.db
+*.sqlite3
+
+# 4. Folder Setting IDE (Antigravity/VS Code)
+.vscode/
+.idea/
+
+# 5. Folder Postman Lokal (Karena kita hanya butuh file Export-nya)
+postman/
+
+# 6. File Environment Variables (Jika nanti kamu pakai)
+.env
